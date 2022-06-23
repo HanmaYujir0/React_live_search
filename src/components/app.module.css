@@ -1,0 +1,104 @@
+.cartContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  width: 30%;
+  margin: 0 auto;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 5px 20px 5px gray;
+  margin-top: 50px;
+}
+img {
+  width: 100%;
+  height: 400px;
+}
+.name_price_cont{
+  display: flex;
+  align-items: center;
+}
+.price_name {
+  width: 50%;
+  margin-left: 20px;
+}
+.btn_cont{
+  width: 50%;
+}
+.info_btn {
+  background-color:transparent;
+  border:2px solid rgb(15, 159, 243);
+  color: rgb(15, 159, 243);
+  border-radius: 3px;
+  padding: 5px 10px;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.name {
+  margin: 25px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.price {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+hr {
+  width: 95%;
+}
+.info_cont {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-bottom: 50px;
+}
+.decription {
+  font-size: 19px;
+}
+.btn_cont1 {
+  margin:25px 0 0 15px;
+}
+.cart_btn {
+  font-size: 20px;
+  padding: 5px 13px;
+  border-radius: 5px;
+  background-color: rgb(4, 143, 4);
+  color: white;
+  cursor: pointer;
+}
+.cart_btnOff {
+  font-size: 20px;
+  padding: 5px 13px;
+  border-radius: 5px;
+  background-color: rgb(135, 217, 135);
+  color: white;
+}
+.cartBtn {
+  margin-left: 15px;
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+.cartBtn:hover {
+  text-decoration:underline;
+}
+.info_Text_btn {
+  width: 20%;
+  position: absolute;
+  display: flex;
+  background-color: white;
+  box-shadow: 0 5px 15px 3px gray;
+}
+.btnClose {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+input {
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 5px;
+  border: 2px solid rgb(84, 162, 188);
+}
